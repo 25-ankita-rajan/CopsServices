@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cops_services"
+            android:icon="@drawable/ic_work_24"
+            android:title="@string/menu_cops_services" />
+        <item
+            android:id="@+id/nav_assigned_jobs"
+            android:icon="@drawable/ic_folder_24"
+            android:title="@string/menu_assigned_jobs" />
+        <item
+            android:id="@+id/nav_inprogress_jobs"
+            android:icon="@drawable/ic_people_24"
+            android:title="@string/menu_inprogress_jobs" />
+        <item
+            android:id="@+id/nav_completed_jobs"
+            android:icon="@drawable/ic_star_24"
+            android:title="@string/menu_completed_jobs" />
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/ic_time_24"
+            android:title="@string/menu_todo" />
+        <item
+            android:id="@+id/nav_alloted_task"
+            android:icon="@drawable/ic_time_24"
+            android:title="@string/menu_alloted_task" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_people_24"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/ic_star_24"
+            android:title="@string/menu_change_password" />
+    </group>
+</menu>

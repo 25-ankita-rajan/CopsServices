@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_cops_services">
+
+    <fragment
+        android:id="@+id/nav_cops_services"
+        android:name="com.example.copsservices.ui.cops_services.CopsServicesFragment"
+        android:label="@string/menu_cops_services"
+        tools:layout="@layout/fragment_cops_services" />
+
+    <fragment
+        android:id="@+id/nav_assigned_jobs"
+        android:name="com.example.copsservices.ui.assigned_jobs.AssignedJobsFragment"
+        android:label="@string/menu_assigned_jobs"
+        tools:layout="@layout/fragment_assigned_jobs" />
+
+    <fragment
+        android:id="@+id/nav_inprogress_jobs"
+        android:name="com.example.copsservices.ui.inprogress_jobs.InProgressJobsFragment"
+        android:label="@string/menu_inprogress_jobs"
+        tools:layout="@layout/fragment_in_progress_jobs" />
+
+    <fragment
+        android:id="@+id/nav_completed_jobs"
+        android:name="com.example.copsservices.ui.completed_jobs.CompletedJobsFragment"
+        android:label="@string/menu_completed_jobs"
+        tools:layout="@layout/fragment_completed_jobs" />
+
+    <fragment
+        android:id="@+id/nav_todo"
+        android:name="com.example.copsservices.ui.todo.TodoFragment"
+        android:label="@string/menu_todo"
+        tools:layout="@layout/fragment_todo" />
+
+    <fragment
+        android:id="@+id/nav_alloted_task"
+        android:name="com.example.copsservices.ui.alloted_task.AllotedTaskFragment"
+        android:label="@string/menu_alloted_task"
+        tools:layout="@layout/fragment_alloted_task" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.copsservices.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_change_password"
+        android:name="com.example.copsservices.ui.change_password.ChangePasswordFragment"
+        android:label="@string/menu_change_password"
+        tools:layout="@layout/fragment_change_password" />
+
+</navigation>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CopsServices</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">COPS SERVICES</string>
+    <string name="nav_header_subtitle"> </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_cops_services">Cops Services</string>
+    <string name="menu_assigned_jobs">Assigned Jobs</string>
+    <string name="menu_inprogress_jobs">IN-Progress Jobs</string>
+    <string name="menu_completed_jobs">Completed Jobs</string>
+    <string name="menu_todo">TODO</string>
+    <string name="menu_alloted_task">Alloted Task</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_change_password">Change Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
